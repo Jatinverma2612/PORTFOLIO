@@ -1,0 +1,143 @@
+.resume-section {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #040e1a;
+  color: white;
+  padding: 80px 8%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  z-index: 0;
+}
+
+.resume-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #00bbdc;
+}
+
+.resume-section p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #ccc;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.education-skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.education,
+.skills {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.education h2,
+.skills h2 {
+  color: #00bbdc;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.education h4,
+.skills h3 {
+  color: white;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.education p,
+.skills p {
+  color: #ccc;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.btn-resume {
+  background: #00bbdc;
+  color: white;
+  border: 2px solid #00bbdc;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.btn-resume:hover {
+  background: transparent;
+  color: #00bbdc;
+}
+
+@media (max-width: 1024px) {
+  .education-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education,
+  .skills {
+    width: 90%;
+    text-align: center;
+  }
+
+  .education h2,
+  .skills h2 {
+    font-size: 1.6rem;
+  }
+
+  .resume-section p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .btn-resume {
+    font-size: 0.9rem;
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .resume-section {
+    padding: 60px 5%;
+  }
+
+  .resume-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .resume-section p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .education,
+  .skills {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .btn-resume {
+    width: 80%;
+  }
+}
