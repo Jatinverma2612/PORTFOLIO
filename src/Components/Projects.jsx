@@ -28,7 +28,7 @@ const Projects = () => {
           </div>
           <div className="project-links">
             <a
-              href="#"
+              href="https://portfolio-n4x9.onrender.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-project"
@@ -36,7 +36,7 @@ const Projects = () => {
               Live Demo
             </a>
             <a
-              href="#"
+              href="https://github.com/Jatinverma2612/PORTFOLIO.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-project"
@@ -56,11 +56,12 @@ const Projects = () => {
           <div className="project-tech-stack">
             <span>React</span>
             <span>API</span>
+            <span>CSS</span>
             <span>JavaScript</span>
           </div>
           <div className="project-links">
             <a
-              href="#"
+              href="https://weather-app-vy3x.onrender.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-project"
@@ -68,7 +69,7 @@ const Projects = () => {
               Live Demo
             </a>
             <a
-              href="#"
+              href="https://github.com/Jatinverma2612/Weather-App.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-project"
