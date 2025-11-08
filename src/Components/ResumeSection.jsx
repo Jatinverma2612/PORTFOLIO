@@ -1,6 +1,5 @@
 import React from "react";
 import "./ResumeSection.css";
-import resumePDF from "../assets/jatin_resume.pdf";
 
 const ResumeSection = () => {
   return (
@@ -44,7 +43,7 @@ const ResumeSection = () => {
         </div>
 
         <a
-          href={resumePDF}
+          href="/Jatin_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-resume"
