@@ -19,8 +19,6 @@ const ResumeSection = () => {
             <h2>EDUCATION</h2>
             <h4>2025-2027: Indira Gandhi National Open University (IGNOU)</h4>
             <p>Bachelor of Computer Applications (BCA)</p>
-            <h4>2021-2024: Delhi University (SOL)</h4>
-            <p>Bachelor of Arts (BA)</p>
           </div>
 
           <div className="skills">
@@ -43,7 +41,7 @@ const ResumeSection = () => {
         </div>
 
         <a
-          href="/Jatin_resume.pdf"
+          href="/JV_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-resume"
