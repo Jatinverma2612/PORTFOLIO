@@ -103,7 +103,7 @@ const Projects = () => {
               Live Demo
             </a>
             <a
-              href="#"
+              href="https://github.com/Jatinverma2612/Note-Saver-App.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-project"
